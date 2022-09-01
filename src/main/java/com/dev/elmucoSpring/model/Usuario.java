@@ -22,6 +22,8 @@ public class Usuario {
 	private String correo;
 	@Column(name = "telefono", length = 12)
 	private long telefono;
+	@Column(name = "clave", length = 12)
+	private String clave;
 
 	
 	
