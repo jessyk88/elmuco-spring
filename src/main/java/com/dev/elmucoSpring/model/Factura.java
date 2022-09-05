@@ -34,6 +34,18 @@ public class Factura {
 	public void setIdFactura(Integer idFactura) {
 		this.idFactura = idFactura;
 	}
+	public Cliente getCliente() {
+		return Cliente;
+	}
+	public void setCliente(Cliente cliente) {
+		Cliente = cliente;
+	}
+	public Vendedor getVendedor() {
+		return Vendedor;
+	}
+	public void setVendedor(Vendedor vendedor) {
+		Vendedor = vendedor;
+	}
 	public Date getFechaFactura() {
 		return fechaFactura;
 	}
@@ -46,4 +58,5 @@ public class Factura {
 	public void setPrecio_Total(Long precio_Total) {
 		Precio_Total = precio_Total;
 	}
+
 }

@@ -17,7 +17,7 @@ public class Cliente {
 	@Column(name = "id_cliente")
 	private Integer idCliente;
 	@JoinColumn(name = "FK_USUARIO", nullable = false)
-    @ManyToOne(optional = false	)
+    @ManyToOne(optional = true	)
 	private Usuario Usuario;
 	public Integer getIdCliente() {
 		return idCliente;

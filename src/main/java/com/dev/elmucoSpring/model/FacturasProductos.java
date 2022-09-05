@@ -31,7 +31,6 @@ public class FacturasProductos {
 	@Column(name = "total")
 	private Long total;
 
-
 	public Integer getIdFacturaProducto() {
 		return idFacturaProducto;
 	}
@@ -39,7 +38,6 @@ public class FacturasProductos {
 	public void setIdFacturaProducto(Integer idFacturaProducto) {
 		this.idFacturaProducto = idFacturaProducto;
 	}
-
 
 	public Factura getIdFactura() {
 		return idFactura;
@@ -72,4 +70,7 @@ public class FacturasProductos {
 	public void setTotal(Long total) {
 		this.total = total;
 	}
+
+
+
 }
